@@ -1,5 +1,5 @@
 ALPHABET = " ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-KEY = 100
+KEY = 3
 
 
 # this algorithm uses index of each letter and adding a key value to the index
@@ -17,8 +17,8 @@ def caesar_crypto(text, target):
     return result
 
 
-print(caesar_crypto(caesar_crypto("men bir uyghur!!", "en"), "de"))
+# print(caesar_crypto(caesar_crypto("men bir uyghur!!", "en"), "de"))
 
-print(caesar_crypto("hello to crypto world!","en"))
+print(caesar_crypto("This is the beginning of a secret world where finding out is always considered an impossible task, but success is where the truth lies!","en"))
 
 # TODO: convert to JAVA
