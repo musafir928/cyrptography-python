@@ -19,4 +19,6 @@ def caesar_crypto(text, target):
 
 print(caesar_crypto(caesar_crypto("men bir uyghur!!", "en"), "de"))
 
+print(caesar_crypto("hello to crypto world!","en"))
+
 # TODO: convert to JAVA
